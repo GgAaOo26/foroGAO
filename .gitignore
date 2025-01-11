@@ -1,0 +1,70 @@
+# IDE-specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+.sts4-cache
+.factorypath
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+
+# Maven-specific files
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle-specific files
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Spring Boot-specific files
+/*.war
+/*.jar
+
+# Logs
+*.log
+/logs/
+
+# Environment and sensitive configuration files
+*.env
+*.properties
+*.yml
+application*.properties
+application*.yml
+
+# Lombok generated files
+.lombok/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.~*
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.settings
+.springBeans
